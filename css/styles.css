@@ -1,0 +1,86 @@
+body{background-color: #15ffb18e;
+text-align: center;}
+
+h1{
+    text-align:center ;
+    color: rgb(20, 20, 20);
+    font-size: 60px;
+    font-weight:100; 
+}
+p{font-size: 22px;
+    width: 900px;
+    margin: 0 auto;
+
+}
+#hero{
+    width: 50%;
+    border-radius: 50px;
+  object-position: 50%50%;
+  margin-bottom: 100px;
+}
+form{
+    background: linear-gradient(rgb(146, 146, 243),rgb(8, 8, 253)) ;
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding:10px;    
+    
+}
+form label{
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+font input,
+form textarea,
+form select{
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 86%;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+form button{
+    background: black;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 22px;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid #000000;
+    transition: .5s;
+}
+
+form button:hover{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 90px;
+}
+
+section{
+    width: 100%;
+    min-height: 500px;
+    padding: 60px 0;
+    text-align: center;
+    background: url();
+    background-size: cover;
+}
+
+section button{
+    padding: 12px 30px;
+    background: #2396db;
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 100px;
+}
+
+section button:hover{
+    background: transparent;
+    border: 2px solid #2396db;
+    color: #000000;
+}
